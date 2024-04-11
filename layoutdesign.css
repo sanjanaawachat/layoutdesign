@@ -1,0 +1,29 @@
+
+
+body{
+    background-color: rgb(227, 227, 204);
+}
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+   .advertise_post{
+    display: none;
+   }
+ .banner_img{
+    width: 100%;
+ }
+  }
